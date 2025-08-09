@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+lxml
+jieba
+scikit-learn
+pandas
+matplotlib
+SnowNLP
+# 可选（更强主题/情感）：
+# transformers
+# sentence-transformers
+# torch
+# bertopic
