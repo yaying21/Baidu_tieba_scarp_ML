@@ -34,8 +34,11 @@ Graphique de répartition des sentiments.
 **Structure du projet**
 
 project/
+
   collector/
+  
     tieba_spider.py     # Spider Selenium pour extraire les données
+    
   processing/
     clean.py            # Nettoyage texte et tokenisation
     sentiment.py        # Analyse de sentiment (post ou thread)
