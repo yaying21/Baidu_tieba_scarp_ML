@@ -1,10 +1,12 @@
 **Collecte et Analyse de Données — Baidu Tieba (« 华为 »)**
 
 **Contexte**
+
 Ce projet implémente un pipeline complet pour collecter, nettoyer, analyser et rapporter des données issues de Baidu Tieba, en se concentrant sur le bar « 华为 ».
 Il combine Selenium pour la collecte, SQLite pour la persistance, et des techniques de Traitement Automatique du Langage (TAL) pour l’analyse thématique et la détection du sentiment.
 
 **Objectifs**
+
 Collecter :
 
 Titres, auteurs, nombre de réponses, URLs des threads.
@@ -30,6 +32,7 @@ Export CSV (mots-clés des sujets, affectation des threads à un sujet, scores d
 Graphique de répartition des sentiments.
 
 **Structure du projet**
+
 project/
   collector/
     tieba_spider.py     # Spider Selenium pour extraire les données
