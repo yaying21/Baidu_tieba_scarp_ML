@@ -40,13 +40,21 @@ project/
     tieba_spider.py     # Spider Selenium pour extraire les données
     
   processing/
+  
     clean.py            # Nettoyage texte et tokenisation
+    
     sentiment.py        # Analyse de sentiment (post ou thread)
+    
     topic.py            # Modélisation thématique LDA
+    
   reports/
+  
     summarize.py        # Génération des exports CSV et graphiques
+    
   storage/
+  
     db.py               # Création et mise à jour de la base SQLite
+    
   main.py               # CLI pour lancer crawl et report
 
 **Lancer la collecte**
